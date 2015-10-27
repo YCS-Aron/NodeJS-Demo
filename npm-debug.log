@@ -1,0 +1,56 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'connect' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of /Users/YCS/Documents/Code/NodeJS Demo/package.json
+5 warn package.json nodejs-test@1.0.0 No repository field.
+6 warn package.json nodejs-test@1.0.0 No README data
+7 warn package.json nodejs-test@1.0.0 No license field.
+8 verbose readDependencies loading dependencies from /Users/YCS/Documents/Code/NodeJS Demo/package.json
+9 silly cache add args [ 'connect', null ]
+10 verbose cache add spec connect
+11 silly cache add parsed spec { raw: 'connect',
+11 silly cache add   scope: null,
+11 silly cache add   name: 'connect',
+11 silly cache add   rawSpec: '',
+11 silly cache add   spec: '*',
+11 silly cache add   type: 'range' }
+12 silly addNamed connect@*
+13 verbose addNamed "*" is a valid semver range for connect
+14 silly addNameRange { name: 'connect', range: '*', hasData: false }
+15 silly mapToRegistry name connect
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry uri https://registry.npmjs.org/connect
+19 verbose addNameRange registry:https://registry.npmjs.org/connect not in flight; fetching
+20 verbose request uri https://registry.npmjs.org/connect
+21 verbose request no auth needed
+22 info attempt registry request try #1 at 17:30:21
+23 verbose request id 79be6ffdee918955
+24 http request GET https://registry.npmjs.org/connect
+25 info retry will retry, error on last attempt: Error: socket hang up
+26 info attempt registry request try #2 at 17:31:36
+27 http request GET https://registry.npmjs.org/connect
+28 info retry will retry, error on last attempt: Error: socket hang up
+29 info attempt registry request try #3 at 17:33:40
+30 http request GET https://registry.npmjs.org/connect
+31 verbose stack Error: socket hang up
+31 verbose stack     at createHangUpError (_http_client.js:215:15)
+31 verbose stack     at TLSSocket.socketOnEnd (_http_client.js:300:23)
+31 verbose stack     at TLSSocket.emit (events.js:129:20)
+31 verbose stack     at _stream_readable.js:908:16
+31 verbose stack     at process._tickCallback (node.js:355:11)
+32 verbose cwd /Users/YCS/Documents/Code/NodeJS Demo
+33 error Darwin 14.5.0
+34 error argv "node" "/usr/local/bin/npm" "install" "connect"
+35 error node v0.12.7
+36 error npm  v2.11.3
+37 error code ECONNRESET
+38 error network socket hang up
+38 error network This is most likely not a problem with npm itself
+38 error network and is related to network connectivity.
+38 error network In most cases you are behind a proxy or have bad network settings.
+38 error network
+38 error network If you are behind a proxy, please make sure that the
+38 error network 'proxy' config is set properly.  See: 'npm help config'
+39 verbose exit [ 1, true ]

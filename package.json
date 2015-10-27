@@ -1,0 +1,11 @@
+{
+  "name": "nodejs-test",
+  "version": "1.0.0",
+  "description": "test features of nodejs",
+  "author": "ycs",
+  "main": "",
+  "scripts": {},
+  "devDependencies": {
+    "connect": "^3.4.0"
+  }
+}
